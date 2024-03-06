@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .gallery-item {
+            width: 300px;
+            text-align: center;
+        }
+        .menu-item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Image Links</h1>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Explore the different sections below.</p>
+        <div class="container">
+            <div class="gallery-item">
+                <img src="technology_image_url" alt="Technology">
+                <p><a href="https://example.com/technology">Technology</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="container">
+            <div class="gallery-item">
+                <img src="nature_image_url" alt="Nature">
+                <p><a href="https://example.com/nature">Nature</a></p>
+            </div>
+            <div class="gallery-item">
+                <img src="nature_image_url" alt="Nature">
+                <p><a href="https://example.com/nature">Nature</a></p>
+            </div>
+            <div class="gallery-item">
+                <img src="nature_image_url" alt="Nature">
+                <p><a href="https://example.com/nature">Nature</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li class="menu-item"><a href="https://example.com/food1"><img src="food1_image_url" alt="Food 1"> Food 1</a></li>
+            <li class="menu-item"><a href="https://example.com/food2"><img src="food2_image_url" alt="Food 2"> Food 2</a></li>
+            <li class="menu-item"><a href="https://example.com/food3"><img src="food3_image_url" alt="Food 3"> Food 3</a></li>
+        </ul>
+    </section>
+</body>
+</html>
