@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Reset CSS */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+        }
+
+        /* Sections */
+        section {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Media Query for Responsive Design */
+        @media (max-width: 768px) {
+            header, nav, main, footer {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Aiton Shiuka</h1>
+    <p>Web Developer</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+</nav>
+
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with experience in HTML, CSS and various web technologies. I love creating responsive and user-friendly websites.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>SQL</li>
+            <li>Responsive Design</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of my recent projects:</p>
+        <ul>
+            <li>Project 1: Portfolio Website</li>
+            <li>Project 2: E-commerce Website</li>
+            <li>Project 3: Blogging Platform</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: aitonshisama@gmail.com</p>
+        <p>Phone: 0718393414</p>
+        <p>Social Media: <a href="#">LinkedIn</a>, <a href="#">Twitter</a>, <a href="#">Instagram</a></p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Aiton Shiuka. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
